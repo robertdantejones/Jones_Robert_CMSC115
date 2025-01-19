@@ -14,11 +14,12 @@ public class CalculateTips {
 		
 //		2. Calculate: convert gratuity rate to dollar amount (round 
 //		to two decimal points
+		double convertGratuity = gratuity / 100; 
 		
+//		4. Calculate gratuity from percentage and subtotal
+		double finalTotal = subtotal * convertGratuity; 
 		
-//		3. Calculate: add gratuity to subtotal
-//		4. Display final total and gratuity rate 
-
+//		5. Display final total and gratuity rate 
 	}
 
 }
