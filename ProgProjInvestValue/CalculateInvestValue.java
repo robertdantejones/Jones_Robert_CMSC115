@@ -21,7 +21,10 @@ public class CalculateInvestValue {
 		int years = input.nextInt();
 		
 		// Step 2: Calculate monthly interest rate, converting percentage to decimal
+		double monthlyRate = annualRate / 12;
+		
 		// Step 3: Calculate investment value
+		double futureValue = investmentAmount * (Math.pow(1 + monthlyRate, 12 * years)); 
 		// Step 4: Display output (Interest amount, Interest Value, APR, years)
 
 	}
