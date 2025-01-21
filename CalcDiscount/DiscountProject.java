@@ -13,13 +13,20 @@ public class DiscountProject {
 		Scanner input = new Scanner(System.in);
 		
 //		1. Get input for discount rate and item price.
-		System.out.println("Enter the price of the item: $");
+		System.out.print("Enter the price of the item: $");
 		double itemPrice = input.nextDouble();
 		
-//		2. Convert discount percentage to decimal
-//		3. Calculate discount from item price
-//		4. Calculate and display final price. 
+		System.out.print("Enter the discount rate in percentage," + ""
+				+ "for example 35:");
+		double discount = input.nextDouble();
 		
+//		2. Convert percentage to decimal
+		double discountDecimal = discount / 100.0;
+		double discountDollarAmount = discountDecimal * itemPrice;
+		
+//		3. Calculate and display final price. 
+		double finalPrice = itemPrice - discountDollarAmount;
+		System.out.print("At checkout, your item will be: $" + ((int) (finalPrice * 100) / 100.0));
 
 	}
 
