@@ -52,6 +52,15 @@ public class CalculateDays {
 		else 
 			System.out.print("Invalid Month");
 		
+//		4. Calculate leap year 
+		boolean isLeapYear = 
+			(year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+		if (month == 2 && isLeapYear)
+			days = 29;
+		
+//		Display output
+		
+		
 		
 
 	}                                                            
