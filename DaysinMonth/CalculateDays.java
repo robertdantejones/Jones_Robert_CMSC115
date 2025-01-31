@@ -13,8 +13,25 @@ public class CalculateDays {
 		
 		
 //		2. Convert input to month
+		String convertMonths; 
+		switch (month) {
+		case 1: convertMonths = "January"; break;
+		case 2: convertMonths = "February"; break;
+		case 3: convertMonths = "March"; break;
+		case 4: convertMonths = "April"; break;
+		case 5: convertMonths = "May"; break;
+		case 6: convertMonths = "June"; break;
+		case 7: convertMonths = "July"; break;
+		case 8: convertMonths = "August"; break;
+		case 9: convertMonths = "September"; break;
+		case 10: convertMonths = "October"; break;
+		case 11: convertMonths = "November"; break;
+		case 12: convertMonths = "December"; break;
+		default: System.out.print("Invalid Month"); break;
+		}
 //		3. Calculate days 
+		
 
-	}
+	}                                                            
 
 }
