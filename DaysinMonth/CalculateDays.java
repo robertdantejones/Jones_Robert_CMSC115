@@ -13,7 +13,7 @@ public class CalculateDays {
 		
 		
 //		2. Convert input to month
-		String convertMonths; 
+		String convertMonths = ""; 
 		switch (month) {
 		case 1: convertMonths = "January"; break;
 		case 2: convertMonths = "February"; break;
@@ -30,7 +30,7 @@ public class CalculateDays {
 		default: System.out.print("Invalid Month"); break;
 		}
 //		3. Calculate days 
-		int days;
+		int days = 0;
 		if (month == 1)
 			days = 31;
 		else if (month == 2)
@@ -59,7 +59,8 @@ public class CalculateDays {
 			days = 29;
 		
 //		Display output
-		
+		System.out.print(convertMonths + " " + year + 
+				" has " + days + " days.");
 		
 		
 
