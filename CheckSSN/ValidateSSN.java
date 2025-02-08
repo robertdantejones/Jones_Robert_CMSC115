@@ -1,3 +1,10 @@
+/* Name: Robert
+Date: 2/8/2025
+Purpose: The purpose of this program is to validate format of 
+SSN from user's input. 
+Version: 1.0
+*/
+
 import java.util.Scanner;
 
 //declare class
