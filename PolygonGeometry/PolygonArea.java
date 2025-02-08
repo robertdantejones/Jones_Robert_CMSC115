@@ -8,6 +8,14 @@ public class PolygonArea {
 	public static void main(String[] args) {
 		
 //		Step 1. Gather User Input for Sides and Length of Polygon
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter the number of sides: ");
+		int sides = input.nextInt();
+		
+		System.out.print("Enter the length of a side: ");
+		double length = input.nextDouble();
+		
 //		Step 2. Compute Area of Polygon
 //		Step 3. Display area and user inputs
 		
