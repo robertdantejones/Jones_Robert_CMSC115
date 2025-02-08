@@ -1,3 +1,10 @@
+/* Name: Robert
+Date: 2/8/2025
+Purpose: The purpose of this program is to calculate the area of a polygon
+from user's input. 
+Version: 1.0
+*/
+
 //object for user input
 import java.util.Scanner;
 
