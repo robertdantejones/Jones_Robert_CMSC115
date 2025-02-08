@@ -17,7 +17,7 @@ public class PolygonArea {
 		double length = input.nextDouble();
 		
 //		Step 2. Compute Area of Polygon
-		double area = (sides * Math.pow(sides, 2) / (4 * Math.tan(Math.PI / length)));
+		double area = (sides * Math.pow(length, 2) / (4 * Math.tan(Math.PI / length)));
 		
 //		Step 3. Display area and user inputs
 		System.out.print("The area of a polygon is " + area);
